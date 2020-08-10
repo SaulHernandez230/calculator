@@ -6,12 +6,10 @@
     var operator = ""
     item.forEach(link => {
         link.addEventListener('click',(e)=>{
-            // link.style.background = "red"
             let character = link.textContent
             switch (character) {
                 case 'C':
-                    string = input.value
-                    string = string.slice(0,-1)
+                    string = ""
                 break
 
                 case "+":
