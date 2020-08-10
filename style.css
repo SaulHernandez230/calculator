@@ -18,24 +18,28 @@ input{
     height: 5vh;
     text-align: center;
     border: none;
+    border-radius: 6px;
+    outline: solid 1px #777;
+    color: #555;
+    font-size: 20px;
 }
 .calculator{
     margin:  0% auto;
     width: 60%;
     height: 50vh;
     text-align: center;
-    /* background: red; */
 }
 .calculator button{
     margin: 1%;
     width: 20%;
     height: 20%;
-    font-size: 18px;
+    font-size: 20px;
     color:#555;
     border-radius: 8px;
     background: #ddd;
     outline: none;
     border: solid 1px #e3edf7;
-    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15)
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
                 -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    cursor: pointer;
 }
