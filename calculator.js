@@ -7,6 +7,7 @@
     item.forEach(link => {
         link.addEventListener('click',(e)=>{
             let character = link.textContent
+            
             switch (character) {
                 case 'C':
                     string = ""
@@ -28,7 +29,8 @@
                             operator === "/" ? a / b : "error"
                 break;
                 default:
-                    string += character
+                    string += ""+character
+                    input.setAttribute("value",string)
                 break;
             }
             input.setAttribute("value",string)
