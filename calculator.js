@@ -7,7 +7,6 @@
     item.forEach(link => {
         link.addEventListener('click',(e)=>{
             let character = link.textContent
-            
             switch (character) {
                 case 'C':
                     string = ""
